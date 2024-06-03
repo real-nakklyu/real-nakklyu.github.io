@@ -11,4 +11,6 @@ interface Client{
 
 func main() {
   fmt.PrintLn("Writing Please to Everyone")
+  Client.name := "Jasey"
+  Client.surname := "Smith"
   }
